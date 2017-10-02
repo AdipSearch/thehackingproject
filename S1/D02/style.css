@@ -1,0 +1,28 @@
+h1
+{
+	color: blue;
+	font-size: 2em;
+}
+
+
+/*.introduction
+{
+	color: blue;
+}
+*/
+.salutations
+{
+	color: blue;
+}
+
+/*ol li
+{
+	color: red;
+}
+*/
+p
+{
+	color: black;
+	font-size: 1.2em;
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
