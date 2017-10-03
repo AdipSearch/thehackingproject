@@ -1,0 +1,20 @@
+.joujou
+{
+	text-align: right;
+	color : #aaa;
+	border: 1px dashed red;
+	box-shadow: 1px 8px 5px red;
+}
+
+body
+{
+	background: url(photo-classe1.png) no-repeat right top;
+	background-attachment: fixed;
+}
+
+@font-face {
+ font-family: "Open Sans";
+ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
