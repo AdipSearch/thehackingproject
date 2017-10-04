@@ -88,7 +88,10 @@ footer
 .ima
 {
 	display: flex;
-	height: 40%;
+	height: 22%;
+	width: 22%;
+	margin-bottom: 1.5%;
+	margin-top: -3%;
 	
 }
 
@@ -100,8 +103,8 @@ footer
 
 #mysearch
 {
-  min-height: 33px;
-  width: 50%;
+  min-height: 40px;
+  width: 40%;
   border: 1px;
   box-shadow: 2px 2px 5px #CBCBCB;
   }
@@ -116,8 +119,8 @@ footer
     height: 36px;
     border-radius: 2px;
     padding: 0 15px 0 15px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 .bouton1:hover{
     display: flex;
@@ -129,5 +132,5 @@ footer
     border: 1px #E3E3E3 solid;
     height: 36px;
     border-radius: 2px;
-    padding: 0 5% 0 5%;
+    /*padding: 0 5% 0 5%;*/
 }
