@@ -26,36 +26,39 @@ trader_du_dimanche([17,3,6,9,15,8,6,1,10])
 =end
 
 def trader_du_lundi(shares)
+	i = 0;
+	share_names = shares.flat_map { |day_table| day_table.keys }.uniq
+	tabl_ord = share_names.map { |name| shares.map { |day_table| day_table[name] } }
+
+	while i < tabl_ord.length - 1
+		trader_du_dimanche(tabl_ord);
+	end
+end
+
+def trader_du_dimanche(tabl_ord)
 	maxprofit = 0;
 	best_buy = nil;
 	best_sell = nil;
-	key = shares[0].keys
 
-	#sélectionner pour toutes les sociétés
-	key.each do |keygen|
-		#naviguer un range de jours où l'on peut acheter
-		(0..(shares.length - 2)).each do |date_buy|
-			#établir un range de jours où l'on peut vendre
-			((date_buy + 1).. shares.length - 1).each do |date_sell|
+	#naviguer un range de jours où l'on peut acheter
+	(0..(price.length - 2)).each do |date_buy|
+		#établir un range de jours où l'on peut vendre
+		((date_buy + 1).. price.length - 1).each do |date_sell|
+			#regarder le profit entre les 2 jours
+			price_difference = price[date_sell] - price[date_buy];
 
-				#regarder le profit entre les 2 jours
-				price_difference = shares[date_sell[keygen]] - price.keygen[date_buy[keygen]];
-
-				if price_difference > maxprofit
-					best_buy = date_buy;
-					best_sell = date_sell;
-					maxprofit = price_difference;
-				end
+			if price_difference > maxprofit
+				best_buy = date_buy;
+				best_sell = date_sell;
+				maxprofit = price_difference;
 			end
 		end
-		#i = i + 1;
 	end
-	#puts "[#{best_buy},#{best_sell}]   # $#{price[best_sell]} - $#{price[best_buy]} == $#{maxprofit}";
+
+	puts "[#{best_buy},#{best_sell}]   # $#{price[best_sell]} - $#{price[best_buy]} == $#{maxprofit}";
 end
 
-trader_du_lundi(shares);
-
-#Créons notre array of hash ...
+trader_du_lundi(shares)
 
 shares = [{ :GOO => 15, :MMM => 14, :ADBE => 12, :EA=> 13, :BA => 8, :KO => 10, :XOM => 20, :GPS => 7, :MCD => 11, :DIS => 15, :CRM => 6, :JNJ => 10 },
 	{ :GOO => 8, :MMM => 20, :ADBE => 3, :EA=> 10, :BA => 5, :KO => 19, :XOM => 12, :GPS => 6, :MCD => 15, :DIS => 9, :CRM => 10, :JNJ => 17 },
