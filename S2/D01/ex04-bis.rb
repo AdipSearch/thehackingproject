@@ -11,9 +11,10 @@ def jean_michel_data(corpus, dictionary)
 		print "'#{key}' == #{i}, ";
 		i = 0;
 	end
-	print string;
 end
 
-dictionary = ["the", "of", "and", "to", "a", "in", "for", "is", "on", "that", "by", "this", "with", "i", "you", "it", "not", "or", "be", "are"];
+file = File.open("shakespeare.txt", "rb")
+contents = file.read;
 
-jean_michel_data(shakespeare.txt, dictionary)
+dictionary = ["the", "of", "and", "to", "a", "in", "for", "is", "on", "that", "by", "this", "with", "i", "you", "it", "not", "or", "be", "are"];
+jean_michel_data(contents, dictionary)

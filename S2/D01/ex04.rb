@@ -11,7 +11,6 @@ def jean_michel_data(corpus, dictionary)
 		print "'#{key}' == #{i}, ";
 		i = 0;
 	end
-	print string;
 end
 
 dictionary = ["les", "et", "Salut"]
