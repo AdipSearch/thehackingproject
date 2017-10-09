@@ -56,7 +56,7 @@ def trader_du_dimanche(tabl_ord, i, share_names)
 		end
 	end
 
-	puts "#{share_names[i]} [#{best_buy},#{best_sell}]   # $#{tabl_ord[best_sell]} - $#{tabl_ord[best_buy]} == $#{maxprofit}";
+	puts "#{share_names[i]} : [#{best_buy},#{best_sell}]   # $#{tabl_ord[best_sell]} - $#{tabl_ord[best_buy]} == $#{maxprofit}";
 end
 
 shares = [{ :GOO => 15, :MMM => 14, :ADBE => 12, :EA=> 13, :BA => 8, :KO => 10, :XOM => 20, :GPS => 7, :MCD => 11, :DIS => 15, :CRM => 6, :JNJ => 10 },
