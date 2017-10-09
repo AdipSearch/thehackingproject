@@ -1,0 +1,228 @@
+Script started on Sun Oct  8 19:14:50 2017
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsscripts[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsmain-grid.js main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hm
+[0mMACHTYPE             mcxrefresh           moo-outdated       
+MAILCHECK            md                   moo-outdated5.18   
+MAILPATH             md5                  moose-outdated     
+MANPATH              mddiagnose           moose-outdated5.16 
+MENUSELECT           mdfind               moose-outdated5.18 
+MODULE_PATH          mdimport             more               
+MY_RUBY_HOME         mdimport32           mount              
+MergePef             mdls                 mount_acfs         
+MvMac                mdutil               mount_afp          
+m4                   memory_pressure      mount_apfs         
+mDNSResponder        mend                 mount_cd9660       
+mDNSResponderHelper  mesg                 mount_cddafs       
+macbinary            mib2c                mount_devfs        
+macerror             mib2c-update         mount_exfat        
+macerror5.16         mig                  mount_fdesc        
+macerror5.18         mkbom                mount_ftp          
+machine              mkdep                mount_hfs          
+mail                 mkdir                mount_msdos        
+mailpath             mkextunpack          mount_nfs          
+mailq                mkfifo               mount_ntfs         
+mailx                mkfile               mount_smbfs        
+make                 mklocale             mount_udf          
+makeinfo             mknod                mount_webdav       
+[Jmalloc_history       [Jmkpassdb             [Jmp2bug             [J
+malloc_history32     [Jmktemp               [Jmpioutil           [J
+man                  [Jmmroff               [Jmsgs               [J
+manpath              [Jmnthome              [Jmtree              [J
+mbegin               [Jmodule_path          [Jmv                 [J
+mcxquery             [Jmodules              [J                   
+[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m m[Kmin m main
+[J[0m_domains        [J_main_complete  [Jdomainname    [J[A[0m[27m[24m[26Cmain[K.js[?1l>[?2004l
+[J]2;main.js]1;main.jszsh: command not found: main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssubi lime main.js[?1l>[?2004l
+]2;sublime main.js]1;sublime[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsmain-grid.js main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004haannive[?1l>[?2004l
+]2;annive]1;annivezsh: command not found: annive
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;31m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36manniversaire[39;49m[0m   [1m[36mimg[39;49m[0m            [1m[36mscripts[39;49m[0m        style.css
+grid.html      index.html     style-grid.css typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004haani niversaire[1m/[0m[0m [?1l>[?2004l
+]2;anniversaire]1;anniversaire[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mcss[39;49m[0m        index.html [1m[36mjs[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hjjs[?1l>[?2004l
+]2;js]1;js[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire/js]1;..niversaire/js[0m[27m[24m[J[01;32m➜  [36mjs[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsanniversaire.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire/js]1;..niversaire/js[0m[27m[24m[J[01;32m➜  [36mjs[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccat style      c  ...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccat stu y    c  ...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccat style-grid.css[1m [0m[0m [?1l>[?2004l
+]2;cat style-grid.css]1;catbody
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+canvas
+{
+	display: none;
+	border: 1px solid black;
+	background-size: 100%;
+}[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccat style- grid.js              c  sscript
+[J[0mSCRIPT    [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[22Cscript[KSCRIPT[1m=[0m
+[J[7mSCRIPT  [0m  [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[22CSCRIPT[1m=[0m[K
+[7mSCRIPT  [0m  [7mSCRIPT  [0m  [A[0m[27m[24m[22CSCRIPT[1m=[0m[Kscript[0m 
+[10C[7mscript  [0m  SCRIPT    [A[0m[27m[24m[22Cscript[Ks[1m/[0m
+[20C[7mscripts/[0m[10Cscript    [A[0m[27m[24m[22Cscripts[1m/[0m[K
+[J[A[30C[0m [?1l>[?2004l
+[J]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsmain-grid.js main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hcct c cat main
+[J[0mmain-grid.js  [Jmain.js     [J[A[0m[27m[24m[26Ccat main[K-grid.js
+[J[7mmain-grid.js[0m  [Jmain.js     [J[A[0m[27m[24m[26Ccat main-grid.js[K
+[7mmain-grid.js[0m  [7mmain-grid.js[0m  [A[0m[27m[24m[26Ccat main-grid.js[K
+[J[A[42C[1m [0m[0m [?1l>[?2004l
+[J]2;cat main-grid.js]1;catwindow.onload = draw();
+
+function draw()
+{	
+	var myText=prompt('Entre un numéro ma Biche');
+	localStorage.setItem('number', myText);
+
+	var canvas = document.getElementById("canvaso");
+	canvas.style.display =  'flex';
+	var ctx = canvas.getContext("2d");
+
+	ctx.strokeStyle ="black";
+	ctx.lineWidth = 4;
+
+	for (i=0; i<=600; i=i+600/myText)
+	{
+		ctx.moveTo(i,0);
+		ctx.lineTo(i,600);
+		ctx.stroke();
+	}
+
+	for (j=0; j<=600; j=j+600/myText)
+	{
+		ctx.moveTo(0,j);
+		ctx.lineTo(600,j);
+		ctx.stroke();
+	}
+
+}[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsmain-grid.js main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h////  ...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36manniversaire[39;49m[0m   [1m[36mimg[39;49m[0m            [1m[36mscripts[39;49m[0m        style.css
+grid.html      index.html     style-grid.css typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004haanniversaire[1m/[0m[0m [?1l>[?2004l
+]2;anniversaire]1;anniversaire[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mcss[39;49m[0m        index.html [1m[36mjs[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hjjs[?1l>[?2004l
+]2;js]1;js[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire/js]1;..niversaire/js[0m[27m[24m[J[01;32m➜  [36mjs[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsanniversaire.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire/js]1;..niversaire/js[0m[27m[24m[J[01;32m➜  [36mjs[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssublim    s  ...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssublime index.html[1m [0m[0m [?1l>[?2004l
+]2;sublime index.html]1;sublime[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36manniversaire[39;49m[0m   [1m[36mimg[39;49m[0m            [1m[36mscripts[39;49m[0m        style.css
+grid.html      index.html     style-grid.css typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsscr
+[0mSCREEN_NO      screen         script                                   
+[JSCRIPT         [Jscreencapture  [J[1;31mscripts[0m/       [J                          [A[A[0m[27m[24m[22Cscr[K[?1l>[?2004l
+[J]2;scr]1;scrzsh: command not found: scr
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;31m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsscinative2ascii[1m [0m[0m           n  sscript
+[J[0mSCRIPT    [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[22Cscript[KSCRIPT[1m=[0m
+[J[7mSCRIPT  [0m  [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[22CSCRIPT[1m=[0m[K
+[7mSCRIPT  
+[0mSCREEN_NO      screen         script                                   
+[JSCRIPT         [Jscreencapture  [J[1;31mscripts[0m/       [J                          [A[A[0m[27m[24m[22Cscr[K[?1l>[?2004l
+[J]2;scr]1;scrzsh: command not found: scr
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;31m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hsscinative2ascii[1m [0m[0m           n  sscript
+[J[0mSCRIPT    [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[22Cscript[KSCRIPT[1m=[0m
+[J[7mSCRIPT  [0m  [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[22CSCRIPT[1m=[0m[K
+[7mSCRIPT  [0m  [7mSCRIPT  [0m  [A[0m[27m[24m[22CSCRIPT[1m=[0m[Kscript[0m 
+[10C[7mscript  [0m  SCRIPT    [A[0m[27m[24m[22Cscript[Ks[1m/[0m
+[20C[7mscripts/[0m[10Cscript    [A[0m[27m[24m[22Cscripts[1m/[0m[K
+[J[A[30C[0m [?1l>[?2004l
+[J]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsmain-grid.js main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hm
+[0mMACHTYPE             mcxrefresh           moo-outdated       
+MAILCHECK            md                   moo-outdated5.18   
+MAILPATH             md5                  moose-outdated     
+MANPATH              mddiagnose           moose-outdated5.16 
+MENUSELECT           mdfind               moose-outdated5.18 
+MODULE_PATH          mdimport             more               
+MY_RUBY_HOME         mdimport32           mount              
+MergePef             mdls                 mount_acfs         
+MvMac                mdutil               mount_afp          
+m4                   memory_pressure      mount_apfs         
+mDNSResponder        mend                 mount_cd9660       
+mDNSResponderHelper  mesg                 mount_cddafs       
+macbinary            mib2c                mount_devfs        
+macerror             mib2c-update         mount_exfat        
+macerror5.16         mig                  mount_fdesc        
+macerror5.18         mkbom                mount_ftp          
+machine              mkdep                mount_hfs          
+mail                 mkdir                mount_msdos        
+mailpath             mkextunpack          mount_nfs          
+mailq                mkfifo               mount_ntfs         
+mailx                mkfile               mount_smbfs        
+make                 mklocale             mount_udf          
+makeinfo             mknod                mount_webdav       
+[Jmalloc_history       [Jmkpassdb             [Jmp2bug             [J
+malloc_history32     [Jmktemp               [Jmpioutil           [J
+man                  [Jmmroff               [Jmsgs               [J
+manpath              [Jmnthome              [Jmtree              [J
+mbegin               [Jmodule_path          [Jmv                 [J
+mcxquery             [Jmodules              [J                   
+[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m m[KMACHTYPE[1m=[    [K
+macerror             mib2c                mount_devfs        [K
+macerror5.16         mib2c-update         mount_exfat        [K
+macerror5.18         mig                  mount_fdesc        [K
+machine              mkbom                mount_ftp          [K
+mail                 mkdep                mount_hfs          [K
+mailpath             mkdir                mount_msdos        [K
+mailq                mkextunpack          mount_nfs          [K
+mailx                mkfifo               mount_ntfs         [K
+make                 mkfile               mount_smbfs        [K
+makeinfo             mklocale             mount_udf          [K
+[Jmalloc_history       [Jmknod                [Jmount_webdav       [J[J[J[J[24A[0m[27m[24m[26CMACHTYPE[1m=[0m[K
+[7mMACHTYPE           [0m  [7mMACHTYPE           [0m  [A[0m[27m[24m[26CMACHTYPE[1m=[0m[K
+[J[A[35C[0m       M  mmain
+[J[J[0m_domains        [J_main_complete  [Jdomainname    [J[A[0m[27m[24m[26Cmain[K.js[?1l>[?2004l
+[J]2;main.js]1;main.jszsh: command not found: main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsmain-grid.js main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssublime main
+[J[0mmain-grid.js  [Jmain.js     [J[A[0m[27m[24m[26Csublime main[K-grid.js
+[J[7mmain-grid.js[0m  [Jmain.js     [J[A[0m[27m[24m[26Csublime main-grid.js[K
+[7mmain-grid.js[0m  [7mmain-grid.js[0m  [A[0m[27m[24m[26Csublime main-grid.js[K[8D.js     
+[14C[7mmain.js     [0mmain-grid.js  [A[0m[27m[24m[26Csublime main.js[K
+[J[A[41C[1m [0m[0m [?1l>[?2004l
+[J]2;sublime main.js]1;sublime[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsmain-grid.js main.js
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/scripts]1;..1/D05/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h...[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36manniversaire[39;49m[0m   [1m[36mimg[39;49m[0m            [1m[36mscripts[39;49m[0m        style.css
+grid.html      index.html     style-grid.css typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hoopen anniversaire[1m/[0m[0m [?1l>[?2004l
+]2;open anniversaire]1;open[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls [?1l>[?2004l
+]2;ls -G]1;ls[1m[36manniversaire[39;49m[0m   [1m[36mimg[39;49m[0m            [1m[36mscripts[39;49m[0m        style.css
+grid.html      index.html     style-grid.css typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssublime[1m [0m[0m i
+[J[1;31mimg[0m/        [Jindex.html[J[A[0m[27m[24m[22Csublime i[Kmg[1m/[0m
+[J[7mimg/      [0m  [Jindex.html[J[A[0m[27m[24m[22Csublime img[1m/[0m[K
+[7mimg/      [0m  [7mimg/      [0m  [A[0m[27m[24m[22Csublime img[1m/[0m[Knd[0mex.html
+[12C[7mindex.html[0m[1;31mimg[0m/        [A[0m[27m[24m[22Csublime index.html[K
+[J[A[40C[1m [0m[0m [?1l>[?2004l
+[J]2;sublime index.html]1;sublime[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36manniversaire[39;49m[0m   [1m[36mimg[39;49m[0m            [1m[36mscripts[39;49m[0m        style.css
+grid.html      index.html     style-grid.css typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05]1;~/THP/S1/D05[0m[27m[24m[J[01;32m➜  [36mD05[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004haanniversaire[1m/[0m[0m [?1l>[?2004l
+]2;anniversaire]1;anniversaire[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mcss[39;49m[0m        index.html [1m[36mjs[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssublime index.html[1m [0m[0m [?1l>[?2004l
+]2;sublime index.html]1;sublime[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mcss[39;49m[0m        index.html [1m[36mjs[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssublime index.html[1m [0m[0m [?1l>[?2004l
+]2;sublime index.html]1;sublime[1m[7m%[27m[1m[0m                                                                                ]2;guigui@MacBook-Pro-de-guigui: ~/THP/S1/D05/anniversaire]1;../anniversaire[0m[27m[24m[J[01;32m➜  [36manniversaire[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
