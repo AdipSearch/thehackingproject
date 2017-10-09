@@ -14,6 +14,6 @@ def jean_michel_data(corpus, dictionary)
 	print string;
 end
 
-dictionary = ["les", "et", "Salut"]
+dictionary = ["the", "of", "and", "to", "a", "in", "for", "is", "on", "that", "by", "this", "with", "i", "you", "it", "not", "or", "be", "are"];
 
-jean_michel_data("Salut les nazes et les marouales", dictionary)
+jean_michel_data(shakespeare.txt, dictionary)
