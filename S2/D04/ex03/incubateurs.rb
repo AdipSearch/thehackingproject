@@ -2,43 +2,69 @@ require 'rubygems'
 require 'nokogiri'   
 require 'open-uri'
 
-def get_the_email_of_a_townhal_from_its_webpage(url, mairie)
-	my_emails = []
+def collect_their_infos(url, names)
+
+	my_website = []
+	postal_code = []
 	final_hash = []
+
+	#Go collect the postal code of each incubator, we go to each of them through the collected URLs in the previous method
 	url.each do |page_url|
 		doc = Nokogiri::HTML(open(page_url))
-		a = doc.xpath('.//*[@class="Style22"]')
-		my_emails << a[11].text[1..-1]
+		a = doc.xpath('.//*[@id="frontend_address"]')
+		postal_code << a.text.split(',',3)[1]
 	end
-	final_hash = mairie.zip(my_emails).map { |ville, email| {ville: ville, email: email} }
-	#finished = Hash[mairie.zip(my_urls.map {|i| i.include?(',') ? (i.split /, /) : i})]
-	#print finished
+	#Same here but for their personal websites
+	url.each do |page_url|
+		doc = Nokogiri::HTML(open(page_url))
+		b = doc.xpath('//*[@id="website"]/@href')
+		my_website << b.text
+	end
+	#We take the 3 arrays : mywebsite, postal_code and names, and we create an array of hash called final_hash :-)
+	final_hash = names.zip(postal_code, my_website).map { |names, postal, website| {name: names, postal_code: postal, url: website} }
+	#Let's contemplate our work :-)
 	puts final_hash
 end
 
-def get_all_the_urls_of_val_doise_townhalls
-	
-	2.upto(29) do |pagenum|
-	  # Create a local variable named `url`
-	  url = "http://www.alloweb.org/annuaire-startups/annuaire-incubateurs/incubateurs-startups/page/#{pagenum}/?tevolution_sortby=alphabetical"
-	end
 
-	doc = Nokogiri::HTML(open(url))
-	tabl = []
-	#mairie = Hash.new
-	mairie = []
-	
-	doc.xpath('.//*[@class="entry-title"]//a').each do |node|
-		tabl << "http://annuaire-des-mairies.com/#{node.text[1..-1]}"
-	end
-	
-	doc.xpath('.//*[@class="lientxt"]').each do |node|
-		#mairie["name"] = node.text
-		mairie << node.text
-	end
-	#print mairie
-	get_the_email_of_a_townhal_from_its_webpage(tabl, mairie)
+		#Collect on every page available on the website - from the second one
+def get_all_the_incubators_and_their_names
+	my_urls = []
+	name_incubator = []
 
+	#up to the 29th page
+	1.upto(29) do |pagenum|
+		if pagenum == 1
+			doc = Nokogiri::HTML(open("http://www.alloweb.org/annuaire-startups/annuaire-incubateurs/incubateurs-startups/?tevolution_sortby=alphabetical"))
+
+				#get the urls of each page to collect more info later
+			doc.xpath('.//*[@class="entry-title"]//a/@href').each do |node|
+				my_urls << node.text
+			end
+
+				#get the names of the incubators
+			doc.xpath('.//*[@class="entry-title"]//a').each do |node|
+				name_incubator << node.text
+			end
+		else
+
+			url = "http://www.alloweb.org/annuaire-startups/annuaire-incubateurs/incubateurs-startups/page/#{pagenum}/?tevolution_sortby=alphabetical"
+			doc = Nokogiri::HTML(open(url))
+
+			#get the urls of each page to collect more info later
+			doc.xpath('.//*[@class="entry-title"]//a/@href').each do |node|
+				my_urls << node.text
+			end
+			#get the names of the incubators
+			doc.xpath('.//*[@class="entry-title"]//a').each do |node|
+				name_incubator << node.text
+			end
+			#send the tabs to the other method to collect additional info
+		end
+	end
+	collect_their_infos(my_urls, name_incubator)
 end
 
-get_all_the_urls_of_val_doise_townhalls()
+
+	#initialize the program
+	get_all_the_incubators_and_their_names()
