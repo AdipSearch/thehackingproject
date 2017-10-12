@@ -27,41 +27,44 @@ def collect_their_infos(url, names)
 end
 
 
-def get_all_the_incubators_and_their_names(my_urls,name_incubator)
 		#Collect on every page available on the website - from the second one
-	2.upto(29) do |pagenum|
-		url = "http://www.alloweb.org/annuaire-startups/annuaire-incubateurs/incubateurs-startups/page/#{pagenum}/?tevolution_sortby=alphabetical"
-	end
-
-	doc = Nokogiri::HTML(open(url))
-		#get the urls of each page to collect more info later
-	doc.xpath('.//*[@class="entry-title"]//a/@href').each do |node|
-		my_urls << node.text
-	end
-		#get their names
-	doc.xpath('.//*[@class="entry-title"]//a').each do |node|
-		name_incubator << node.text
-	end
-		#send the tabs to the other method to collect additional info
-	collect_their_infos(my_urls, name_incubator)
-end
-
-def collect_first_page
+def get_all_the_incubators_and_their_names
 	my_urls = []
 	name_incubator = []
 
 	doc = Nokogiri::HTML(open("http://www.alloweb.org/annuaire-startups/annuaire-incubateurs/incubateurs-startups/?tevolution_sortby=alphabetical"))
 
-		#get the urls of each page to collect more info later
-	doc.xpath('.//*[@class="entry-title"]//a/@href').each do |node|
-		my_urls << node.text
-	end
+				#get the urls of each page to collect more info later
+			doc.xpath('.//*[@class="entry-title"]//a/@href').each do |node|
+				my_urls << node.text
+			end
 
-		#get the names of the incubators
-	doc.xpath('.//*[@class="entry-title"]//a').each do |node|
-		name_incubator << node.text
+				#get the names of the incubators
+			doc.xpath('.//*[@class="entry-title"]//a').each do |node|
+				name_incubator << node.text
+			end
+				collect_their_infos(my_urls, name_incubator)
+
+	#up to the 29th page
+	2.upto(29) do |pagenum|
+
+			url = "http://www.alloweb.org/annuaire-startups/annuaire-incubateurs/incubateurs-startups/page/#{pagenum}/?tevolution_sortby=alphabetical"
+			doc = Nokogiri::HTML(open(url))
+
+			#get the urls of each page to collect more info later
+			doc.xpath('.//*[@class="entry-title"]//a/@href').each do |node|
+				my_urls << node.text
+			end
+			#get the names of the incubators
+			doc.xpath('.//*[@class="entry-title"]//a').each do |node|
+				name_incubator << node.text
+			end
+				collect_their_infos(my_urls, name_incubator)
+
+			#send the tabs to the other method to collect additional info
 	end
-	get_all_the_incubators_and_their_names(my_urls,name_incubator)
 end
 
-collect_first_page()
+
+	#initialize the program
+	get_all_the_incubators_and_their_names()
