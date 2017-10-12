@@ -13,14 +13,14 @@ search_options = {
   geocode: "48.8534,2.3488,1000mi"
 }
 
-client.search("France", search_options).take(7).each do |tweet|
+client.search("2017", search_options).take(700).each do |tweet|
   #client.favorite(tweet)
   #client.retweet(tweet)
   begin
     puts "#{tweet.user.screen_name}: #{tweet.text}"
-    client.favorite(tweet)
+    #client.favorite(tweet)
     #client.follow(tweet.user)
-    #client.retweet(tweet)
+    client.retweet(tweet)
   rescue Twitter::Error::Forbidden => e
 
   end
